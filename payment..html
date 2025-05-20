@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  />
+    <title>Document</title>
+</head>
+<body>
+    <ul class="nav bg-red-500 md:flex gap-10 pl-2 flex h-10 text-white font-bold text-2xl pt-2 position: sticky top-0 z-1 git">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="js.ecommerce.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="product.html">Products</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="payment..html">Payment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+            <i class="fa-solid fa-basket-shopping position: absolute top-12 left-3 text-red-500 md:text-white text-2xl md:top-2 md:left-250">0</i>
+          </li>
+      </ul>
+
+         <div class="shadow-sm rounded-2xl mt-10 md:mt-5 ml-5 h-7">
+          <span class="bg-red-500 border-3 border-neutral-950 rounded-md text-white ml-10 ">Welcome To Your Delivery Page</span>
+         </div>
+
+         <h1 class="font-bold text-4xl md:text-center">PAYMENT SECTION</h1>
+         <hr>
+         <div class="flex gap-5 md:gap-100 mt-7">
+            <div class="ml-2">
+                <p>SUPPLIER</p>
+                <p class="font-bold">RealMinTech Stores</p>
+                <p>17,Oke Obedu street, Okinni Area, Oshogbo</p>
+                <p>09025167040</p>
+             </div>
+             <div>
+                <p>CLIENT</p>
+                <p class="font-bold text-xl">Client's Name</p>
+                <p>Client's Address</p>
+                <p>Client's Number</p>
+             </div>
+         </div>
+         <hr>
+
+         <div class="flex gap-55 md:gap-150 mt-2">
+            <div class="font-bold ml-2">
+                <p class="text-2xl">Payment Method :</p>
+                <span>Debit Card</span>
+                <input type="radio"><br>
+                <span>PayPal</span>
+                <input type="radio"><br>
+                <span>FlutterWave</span>
+                <input type="radio">
+             </div>
+             <p class="font-bold ">Issue Date :</p>
+         </div>
+
+         <div class="bg-red-500 font-bold text-3xl text-white py-3 pl-2">
+            <div class="gap-2 grid md:gap-30 md:flex">
+               <p>VIEW DESCRIPTION</p>
+                <p>IMAGE</p>
+                <p>PRICE</p>
+                <p>QUANTITY</p>
+               <p>TOTAL</p>
+                <p>REMOVE</p>
+            </div>
+         </div>
+          
+         <button class="bg-red-500 text-white rounded-md p-2 mt-5 hover:bg-red-900 mx-20">Clear Cart</button>
+         <div class="md:flex md:gap-20">
+            <p class="font-bold ml-2">Note:</p>
+            <p>This is to inform our prestige clients that all goods ordered will be delivered 7-days after day of order placement.</p>
+            <div class="font-bold text-3xl">
+                <p>Subtotal</p>
+                <p>Taxes</p>
+                <p>Delivery Fee</p>
+                <p class="text-2xl w-80 h-10 border">₦0</p>
+            </div>
+         </div>
+
+         <nav aria-label="Page navigation example">
+            <ul class="pagination grid md:flex w-10  h-35 sm:text-left bg-red-500 md:text-center text-white font-bolder p-3 md:mt-5 md:mx-170 md:w-30 md:h-13">
+              <li class="page-item">
+                <a class="page-link border p-1" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link border p-1" href="js.ecommerce.html">1</a></li>
+              <li class="page-item"><a class="page-link border p-1" href="product.html">2</a></li>
+              <li class="page-item"><a class="page-link border p-1" href="payment..html">3</a></li>
+              <li class="page-item">
+                <a class="page-link border p-1" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+           
+          <footer class=" bg-stone-950 text-white  mt-10 md:gap-100">
+            <div class="md:flex md:mx-50 md:gap-30 md:p-10 p-5">
+              <div>
+                <p class="font-bold text-xl">Main Menu</p>
+                <ul class="text-white">
+                  <li>Home</li>
+                  <li>Our Service</li>
+                  <li>Our Products</li>
+                  <li>About Us</li>
+                  <li>Contact Us</li>
+                </ul> 
+              </div>
+            
+            <div>
+              <p class="font-bold text-xl">Knowledge Base</p>
+              <ul class="text-white">
+               <li>Deliver</li>
+               <li>Return</li>
+               <li>Service</li>
+               <li>Discount</li>
+               <li>Special Offer</li>
+             </ul>
+               </div>
+               <div>
+                <p class="font-bold text-xl">Useful Links</p>
+                <ul  class="text-white">
+                  <li>Site Map</li>
+                  <li>Search</li>
+                  <li>Service</li>
+                  <li>Discount</li>
+                  <li>Review</li>
+                </ul>
+                  </div>
+                  <div>
+                    <p class="font-bold text-2xl ">CONTACT US</p>
+                <ul class="text-white">
+                  <li>12, Oke obedu street, Okinni, Oshogbo</li>
+                  <li><i class="fa-solid fa-phone"></i>09025167040</li>
+                  <li><i class="fa-solid fa-message"></i>ebunoluwafolorunsho@gmail.com</li>
+                  <i class="fa-brands fa-facebook"></i> <br>
+                  <i class="fa-brands fa-twitter"></i>
+                </ul>
+                 </div>
+            </div>
+      
+          </footer>
+</body>
+</html>
